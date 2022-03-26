@@ -1,0 +1,15 @@
+.page__inner {
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .page__inner {
+    margin: 0 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page__inner {
+    margin: 0 auto;
+  }
+}
