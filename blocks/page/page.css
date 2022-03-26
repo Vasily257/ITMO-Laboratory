@@ -1,0 +1,21 @@
+.page {
+  position: relative;
+
+  box-sizing: border-box;
+  min-width: 320px;
+
+  color: #ffffff;
+  background-color: #001337;
+
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
