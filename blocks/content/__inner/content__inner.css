@@ -1,0 +1,15 @@
+.content__inner {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .content__inner {
+    padding: 0 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content__inner {
+    padding: 0 auto;
+  }
+}
