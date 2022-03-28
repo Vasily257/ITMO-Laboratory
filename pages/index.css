@@ -2,3 +2,6 @@
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/_inner/content_inner.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
