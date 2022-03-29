@@ -1,7 +1,7 @@
 .footer__logo{
-  width: 98px;
+  width: 140px;
   height: 33px;
   background-image: url(../../../images/footer-logo.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  padding-bottom: 40px;
 }
