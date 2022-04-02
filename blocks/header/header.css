@@ -3,8 +3,8 @@
     min-height: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     padding: 13px 11.5%;
     background-color: #000d26;
-    box-sizing: border-box; /* удалить строчку, когда будет подключён класс page*/
+    box-sizing: border-box;
 }

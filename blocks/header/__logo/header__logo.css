@@ -2,4 +2,5 @@
     object-fit: contain;
     width: 150px;
     height: 54px;
+    margin-right: calc(5vw + 63px);
 }
