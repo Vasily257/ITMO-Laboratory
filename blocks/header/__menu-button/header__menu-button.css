@@ -1,3 +1,27 @@
 .header__menu-button {
-    visibility: hidden;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../../images/menu-button.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    visibility: visible;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    .header__menu-button {
+        margin: 4px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header__menu-button {
+        visibility: hidden;
+    }
 }
