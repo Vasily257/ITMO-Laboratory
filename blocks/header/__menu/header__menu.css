@@ -1,13 +1,6 @@
 .header__menu {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 3px 0 7px;
-    visibility: hidden;
-    position: absolute;
-}
-
-@media (min-width: 1280px) {
-    .header__menu {
-        visibility: visible;
-        position: relative;
-    }
 }
