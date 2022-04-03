@@ -1,3 +1,8 @@
 .footer__about-list-el{
   list-style-type: none;
+  line-height: 0;
+  transition: .4s;
+}
+.footer__about-list-el:hover{
+  opacity: .5;
 }
