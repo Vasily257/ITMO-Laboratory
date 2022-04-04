@@ -6,3 +6,9 @@
   font-size: 12px;
   line-height: 16px;
 }
+
+@media (min-width: 450px) {
+  .footer__copyright{
+    width: 90%;
+  }
+}

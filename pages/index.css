@@ -5,6 +5,7 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo-pic/footer__logo-pic.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__about/footer__about.css);
 @import url(../blocks/footer/__about-header/footer__about-header.css);
@@ -20,3 +21,4 @@
 @import url(../blocks/contacts-social/__list/contact-social__list.css);
 @import url(../blocks/contacts-social/__link/contact-social__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__description/footer__description.css);

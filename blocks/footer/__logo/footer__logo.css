@@ -1,7 +1,10 @@
 .footer__logo{
   width: 140px;
   height: 33px;
-  background-image: url(../../../images/logo-industrial-ai.png);
-  background-repeat: no-repeat;
   padding-bottom: 41px;
+}
+@media (min-width: 450px) {
+  .footer__logo{
+    width: 90%;
+  }
 }
