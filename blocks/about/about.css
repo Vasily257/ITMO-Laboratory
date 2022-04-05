@@ -1,3 +1,9 @@
 .about {
-
+    width: 100%;
+    background-image: url(../../images/main-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -80px;
+    display: flex;
+    flex-direction: column;
 }
