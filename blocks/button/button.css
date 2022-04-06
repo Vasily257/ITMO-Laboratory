@@ -1,0 +1,12 @@
+.button {
+  display: block;
+
+  cursor: pointer;
+
+  opacity: 1;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+
+  font: inherit;
+}

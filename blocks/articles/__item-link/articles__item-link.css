@@ -1,4 +1,6 @@
 .articles__item-link {
+  display: flex;
+
   text-decoration: none;
 
   color: #ffffff;
@@ -6,4 +8,16 @@
   font-size: 14px;
   font-weight: 600;
   line-height: calc(19 / 14);
+}
+
+.articles__item-link::after {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+
+  content: '';
+
+  background-image: url(../../../images/articles/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }

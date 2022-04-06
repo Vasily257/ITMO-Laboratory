@@ -1,8 +1,8 @@
 .articles__list {
   display: grid;
-  column-gap: 8px;
+  gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(462, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(462px, 1fr));
 
   margin: 0;
   padding: 0;

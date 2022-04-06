@@ -1,6 +1,7 @@
 .articles__item-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
 
   padding: 10px 16px;
