@@ -1,6 +1,9 @@
 .button {
   display: block;
 
+  margin: 0;
+  padding: 0;
+
   cursor: pointer;
 
   opacity: 1;

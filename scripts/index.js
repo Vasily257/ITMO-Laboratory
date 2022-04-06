@@ -2,7 +2,11 @@
 
 import { articleData } from './articles.js';
 
+// Articles
+
 const articlesСontainer = document.querySelector('.articles__list');
+
+// Function for creating an article
 
 function createArticle(data) {
   const articleElement = document
@@ -13,7 +17,8 @@ function createArticle(data) {
   const articleTitle = articleElement.querySelector('.articles__item-title');
   const articleAuthors = articleElement.querySelector('.articles__item-authors');
   const articleText = articleElement.querySelector('.articles__item-text');
-  const articleShareButton = articleElement.querySelector('.share');
+  const shareButton = articleElement.querySelector('.share');
+  const shareButtonList = articleElement.querySelector('.share__list');
 
   articleImage.src = data.link;
   articleImage.loading = 'lazy';
@@ -24,17 +29,21 @@ function createArticle(data) {
   articleText.textContent = data.text;
 
   function handleShareButton(event) {
-    event.target.classList.toggle('.share_opened');
+    shareButtonList.classList.toggle('share__list_opened');
   }
 
-  articleShareButton.addEventListener('click', handleShareButton);
+  shareButton.addEventListener('click', handleShareButton);
 
   return articleElement;
 }
 
+// Function for rendering an article
+
 function renderArticle(data) {
   const articleElement = createArticle(data);
-  articlesСontainer.prepend(articleElement);
+  articlesСontainer.append(articleElement);
 }
+
+// Сreate articles
 
 articleData.forEach(renderArticle);

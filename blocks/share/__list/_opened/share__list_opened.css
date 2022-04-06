@@ -1,0 +1,6 @@
+.share__list_opened {
+  opacity: 1;
+  visibility: visible;
+
+  transition: visibility 0s linear, opacity 0.5s;
+}

@@ -25,9 +25,9 @@
 @import url(../blocks/articles/__item-link-arrow/articles__item-link-arrow.css);
 @import url(../blocks/articles/__item-share/articles__item-share.css);
 @import url(../blocks/share/share.css);
-@import url(../blocks/share/_opened/share_opened.css);
 @import url(../blocks/share/__image/share__image.css);
 @import url(../blocks/share/__list/share__list.css);
+@import url(../blocks/share/__list/_opened/share__list_opened.css);
 @import url(../blocks/share/__item/share__item.css);
 @import url(../blocks/share/__link/share__link.css);
 @import url(../blocks/share/__icon/share__icon.css);
