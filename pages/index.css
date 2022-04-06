@@ -1,6 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 @import url(../blocks/font-weight/_bold/font-weight_bold.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/_inner/content_inner.css);
 @import url(../blocks/header/header.css);
