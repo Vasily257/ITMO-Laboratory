@@ -1,10 +1,27 @@
 .description__text {
-    margin: 0 auto;
+    margin: 0 12px 0 20px;
     padding: 0;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 16px;
     font-weight: 400;
-    text-align: justify;
     letter-spacing: .1px;
-    width: 907px;
+    width: calc(100vw - 32px);
+}
+
+@media (min-width: 768px) {
+    .description__text {
+        font-size: 14px;
+        line-height: 20px;
+        width: calc(100vw - 78px);
+        margin: 0 39px 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .description__text {
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 30px;
+        width: 907px;
+    }
 }
