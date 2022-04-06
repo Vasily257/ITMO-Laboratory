@@ -2,6 +2,8 @@
 
 import { articleData } from './articles.js';
 
+const articlesСontainer = document.querySelector('.articles__list');
+
 function createArticle(data) {
   const articleElement = document
     .querySelector('.articles-template')
@@ -24,4 +26,13 @@ function createArticle(data) {
   }
 
   articleShareButton.addEventListener('click', handleShareButton);
+
+  return articleElement;
 }
+
+function renderArticle(data) {
+  const articleElement = createArticle(data);
+  articlesСontainer.prepend(articleElement);
+}
+
+articleData.forEach(renderArticle);
