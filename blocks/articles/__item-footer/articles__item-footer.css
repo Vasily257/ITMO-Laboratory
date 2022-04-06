@@ -3,5 +3,7 @@
   justify-content: space-between;
   flex-direction: row;
 
+  padding: 10px 16px;
+
   background-color: #009fac;
 }
