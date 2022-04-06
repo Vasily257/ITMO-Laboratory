@@ -1,0 +1,7 @@
+.articles__item-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  background-color: #009fac;
+}

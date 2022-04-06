@@ -1,0 +1,5 @@
+.articles__item-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: calc(19 / 14);
+}

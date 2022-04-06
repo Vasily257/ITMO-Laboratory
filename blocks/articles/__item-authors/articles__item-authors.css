@@ -1,0 +1,8 @@
+.articles__item-authors {
+  color: #009fac;
+
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: calc(17 / 12);
+}

@@ -1,0 +1,4 @@
+.articles__item-text {
+  font-size: 12px;
+  line-height: calc(16 / 12);
+}

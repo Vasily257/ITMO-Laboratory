@@ -14,6 +14,7 @@
 @import url(../blocks/articles/articles.css);
 @import url(../blocks/articles/__title/articles__title.css);
 @import url(../blocks/articles/__list/articles__list.css);
+@import url(../blocks/articles/__item/articles__item.css);
 @import url(../blocks/articles/__item-image/articles__item-image.css);
 @import url(../blocks/articles/__item-title/articles__item-title.css);
 @import url(../blocks/articles/__item-authors/articles__item-authors.css);

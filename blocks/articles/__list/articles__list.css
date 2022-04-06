@@ -1,0 +1,10 @@
+.articles__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}

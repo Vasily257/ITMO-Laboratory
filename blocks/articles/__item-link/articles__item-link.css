@@ -1,0 +1,9 @@
+.articles__item-link {
+  text-decoration: none;
+
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: calc(19 / 14);
+}
