@@ -1,0 +1,26 @@
+.about__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 30px auto 16px 16px;
+    padding: 0;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    width: 256px;
+}
+
+@media (min-width: 768px) {
+    .about__title {
+        margin: 60px auto 12px 39px;
+        font-size: 54px;
+        line-height: 68px;
+        width: 445px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .about__title {
+        margin: 92px 165px 12px auto;
+    }
+}
