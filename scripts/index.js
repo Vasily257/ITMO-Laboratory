@@ -16,7 +16,9 @@ function createArticle(data) {
   const articleShareButton = articleElement.querySelector('.share');
 
   articleImage.src = data.link;
-  articleImage.type = 'webp';
+  articleImage.loading = 'lazy';
+  articleImage.decoding = 'async';
+  articleImage.alt = data.title;
   articleTitle.textContent = data.title;
   articleAuthors.textContent = data.authors;
   articleText.textContent = data.text;
