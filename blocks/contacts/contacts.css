@@ -5,4 +5,15 @@
   line-height: 20px;
   padding: 40px 0 20px;
 }
+@media (min-width: 768px) {
+  .contacts{
+    width: 210px;
+  }
+}
+@media (min-width: 1440px) {
+  .contacts{
+    padding: 0;
+    margin-top: -48px;
+  }
+}
 

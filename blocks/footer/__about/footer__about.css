@@ -8,3 +8,8 @@
 
   }
 }
+@media (min-width: 1440px) {
+  .footer__about{
+    margin-top: -48px;
+  }
+}
