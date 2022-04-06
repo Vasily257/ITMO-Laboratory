@@ -21,6 +21,7 @@
 @import url(../blocks/articles/__item-footer/articles__item-footer.css);
 @import url(../blocks/articles/__item-share/articles__item-share.css);
 @import url(../blocks/share/share.css);
+@import url(../blocks/share/_opened/share_opened.css);
 @import url(../blocks/share/__list/share__list.css);
 @import url(../blocks/share/__item/share__item.css);
 @import url(../blocks/share/__link/share__link.css);
