@@ -16,8 +16,8 @@
     padding-top: 35px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .footer__author{
-    order: 4;
+    order: 5;
   }
 }

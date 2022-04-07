@@ -17,7 +17,7 @@
     padding-bottom: 31px;
   }
 }
-@media (min-width:1440px) {
+@media (min-width:1200px) {
   .footer__copyright{
     width: 236px;
     order: 1;
