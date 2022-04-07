@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
+@import url(../blocks/button/button.css);
 @import url(../blocks/font-weight/_bold/font-weight_bold.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/_inner/content_inner.css);
@@ -12,7 +13,6 @@
 @import url(../blocks/header/__item/_active/header__item_active.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__link-button/about__link-button.css);
@@ -20,3 +20,22 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/articles/articles.css);
+@import url(../blocks/articles/__title/articles__title.css);
+@import url(../blocks/articles/__list/articles__list.css);
+@import url(../blocks/articles/__item/articles__item.css);
+@import url(../blocks/articles/__item-image/articles__item-image.css);
+@import url(../blocks/articles/__item-title/articles__item-title.css);
+@import url(../blocks/articles/__item-authors/articles__item-authors.css);
+@import url(../blocks/articles/__item-text/articles__item-text.css);
+@import url(../blocks/articles/__item-footer/articles__item-footer.css);
+@import url(../blocks/articles/__item-link/articles__item-link.css);
+@import url(../blocks/articles/__item-link-arrow/articles__item-link-arrow.css);
+@import url(../blocks/articles/__item-share/articles__item-share.css);
+@import url(../blocks/share/share.css);
+@import url(../blocks/share/__image/share__image.css);
+@import url(../blocks/share/__list/share__list.css);
+@import url(../blocks/share/__list/_opened/share__list_opened.css);
+@import url(../blocks/share/__item/share__item.css);
+@import url(../blocks/share/__link/share__link.css);
+@import url(../blocks/share/__icon/share__icon.css);

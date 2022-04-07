@@ -8,11 +8,13 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="header__logo" src="./images/logo-industrial-ai.png" alt="лого центра НТИ">
+      <img class="header__logo" src="./images/logo-industrial-ai.png" alt="лого центра НТИ" />
       <button type="button" class="header__menu-button"></button>
       <nav class="header__menu">
         <ul class="header__list">
-          <li class="header__item header__item_active"><a class="header__link" href="#description">О нас</a></li>
+          <li class="header__item header__item_active">
+            <a class="header__link" href="#description">О нас</a>
+          </li>
           <li class="header__item"><a class="header__link" href="#research">Лаборатория</a></li>
           <li class="header__item"><a class="header__link" href="#projects">Проекты</a></li>
           <li class="header__item"><a class="header__link" href="#education">Образование</a></li>
@@ -24,14 +26,19 @@
     </header>
     <main class="content">
       <section class="about">
-        <h1 class="about__title"><span class="font-weight_bold">Когнитивные технологии, </span>машинное обучение</h1>
+        <h1 class="about__title">
+          <span class="font-weight_bold">Когнитивные технологии, </span>машинное обучение
+        </h1>
         <p class="about__subtitle">Системы прикладного искусственного интеллекта</p>
-        <a href="#projects" class="about__link-button"><button type="button" class="about__button">Наши проекты</button></a>
+        <a href="#projects" class="about__link-button"
+          ><button type="button" class="about__button">Наши проекты</button></a
+        >
         <div class="description" id="description">
           <h2 class="description__title">Несколько слов о нас</h2>
           <p class="description__text">
-            Национальный центр когнитивных разработок - центр национальной технологической инициативы (НТИ), получивший 
-            государственную поддержку по направлению &laquo;Технологии машинного обучения и когнитивные технологии&raquo;.
+            Национальный центр когнитивных разработок - центр национальной технологической
+            инициативы (НТИ), получивший государственную поддержку по направлению &laquo;Технологии
+            машинного обучения и когнитивные технологии&raquo;.
           </p>
           <div class="slider description__slider">
             <!-- Слайдер с новостями об ИТМО -->
@@ -41,12 +48,66 @@
       <section class="research" id="research"></section>
       <section class="projects" id="projects"></section>
       <section class="education" id="education"></section>
-      <section class="publications" id="publications"></section>
+      <section class="articles" id="articles">
+        <h2 class="articles__title">Публикации</h2>
+        <ul class="articles__list"></ul>
+      </section>
       <section class="team" id="team"></section>
       <section class="partners"></section>
       <section class="feedback" id="feedback"></section>
     </main>
     <footer class="footer"></footer>
-    <script src="./scripts/index.js"></script>
+    <template class="articles-template">
+      <li class="articles__item">
+        <img class="articles__item-image" src="" alt="" />
+        <h3 class="articles__item-title" lang="en"></h3>
+        <p class="articles__item-authors" lang="en"></p>
+        <p class="articles__item-text" lang="en"></p>
+        <div class="articles__item-footer">
+          <a
+            class="articles__item-link"
+            href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+            >Читать полностью
+          </a>
+          <button class="button articles__item-share share" type="button" aria-label="Поделиться">
+            <div class="share__image"></div>
+            <ul class="share__list">
+              <li class="share__item">
+                <a class="share__link" href="#" target="_blank">
+                  <img
+                    class="share__icon"
+                    src="./images/share/social/vkontakte.svg"
+                    alt="Вконтакте" />
+                </a>
+              </li>
+              <li class="share__item">
+                <a class="share__link" href="#" target="_blank">
+                  <img class="share__icon" src="./images/share/social/plug.svg" alt="Фейсбук" />
+                </a>
+              </li>
+              <li class="share__item">
+                <a class="share__link" href="#" target="_blank">
+                  <img
+                    class="share__icon"
+                    src="./images/share/social/telegram.svg"
+                    alt="Телеграм" />
+                </a>
+              </li>
+              <li class="share__item">
+                <a class="share__link" href="#" target="_blank">
+                  <img class="share__icon" src="./images/share/social/plug.svg" alt="Инстаграм" />
+                </a>
+              </li>
+              <li class="share__item">
+                <a class="share__link" href="#" target="_blank">
+                  <img class="share__icon" src="./images/share/social/youtube.svg" alt="Ютуб" />
+                </a>
+              </li>
+            </ul>
+          </button>
+        </div>
+      </li>
+    </template>
+    <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
