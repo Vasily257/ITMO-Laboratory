@@ -17,6 +17,3 @@
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__link-button/about__link-button.css);
 @import url(../blocks/about/__button/about__button.css);
-@import url(../blocks/description/description.css);
-@import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__text/description__text.css);
