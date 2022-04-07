@@ -1,0 +1,5 @@
+.partners__logo {
+    object-fit: contain;
+    max-width: 240px;
+    max-height: 50px;
+}
