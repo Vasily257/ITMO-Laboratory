@@ -19,7 +19,7 @@
 }
 @media (min-width:1440px) {
   .footer__copyright{
-    width: 253px;
-    flex-basis: 1000px;
+    width: 236px;
+    order: 1;
   }
 }

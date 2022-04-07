@@ -10,6 +10,7 @@
 }
 @media (min-width: 1440px) {
   .footer__about{
-    margin-top: -48px;
+    margin-top: -64px;
+    order: 4;
   }
 }

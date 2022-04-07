@@ -17,5 +17,13 @@
 @media (min-width: 1440px) {
   .footer{
     padding: 0 165px;
+
   }
+  .footer::before{
+    content: "";
+    width: 100%;
+    order: 2;
+  }
+
 }
+

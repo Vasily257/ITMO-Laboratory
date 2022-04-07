@@ -15,7 +15,7 @@
 }
 @media (min-width:1440px) {
   .footer__description{
-
+    order: 4;
     width: 263px;
   }
 }

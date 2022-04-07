@@ -1,0 +1,19 @@
+.header__item {
+    margin: auto 21px auto 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 1279px) {    /* удалить, когда будет сделан JS */
+    .header__item {
+        width: 0;
+        margin: 0;
+    }
+}

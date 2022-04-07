@@ -1,0 +1,10 @@
+.articles__item-image {
+  display: block;
+
+  width: calc(100% - 32px);
+  height: auto;
+  margin: 16px 16px 0;
+
+  object-fit: cover;
+  object-position: center;
+}

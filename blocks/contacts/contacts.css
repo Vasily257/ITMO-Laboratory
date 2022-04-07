@@ -13,7 +13,8 @@
 @media (min-width: 1440px) {
   .contacts{
     padding: 0;
-    margin-top: -48px;
+    margin-top: -64px;
+    order: 4;
   }
 }
 

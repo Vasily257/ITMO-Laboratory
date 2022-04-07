@@ -1,0 +1,8 @@
+.articles__item-link-arrow {
+  width: 24px;
+  height: 24px;
+
+  background-image: url(../../../images/articles/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

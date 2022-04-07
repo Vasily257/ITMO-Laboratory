@@ -11,7 +11,13 @@
   .contacts-social{
     width: 210px;
     margin-bottom: 0;
-    order: 2;
+    order: 5;
     padding-top: 35px;
+  }
+}
+@media (min-width: 1440px){
+  .contacts-social{
+    padding: 0;
+    align-self: flex-start;
   }
 }

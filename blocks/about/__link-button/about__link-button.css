@@ -1,0 +1,16 @@
+.about__link-button {
+    margin: 0 auto 60px;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .about__link-button {
+        margin: 0 auto 120px 39px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .about__link-button {
+        margin: 0 260px 124px auto;
+    }
+}
