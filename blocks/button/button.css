@@ -1,0 +1,15 @@
+.button {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+
+  opacity: 1;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+
+  font: inherit;
+}

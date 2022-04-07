@@ -10,3 +10,10 @@
 .header__item:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 1279px) {    /* удалить, когда будет сделан JS */
+    .header__item {
+        width: 0;
+        margin: 0;
+    }
+}

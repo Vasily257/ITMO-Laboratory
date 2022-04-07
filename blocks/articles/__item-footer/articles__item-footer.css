@@ -1,0 +1,12 @@
+.articles__item-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin-top: auto;
+  padding: 10px 16px;
+
+  border-radius: 0 0 5px 5px;
+  background-color: #009fac;
+}
