@@ -2,6 +2,11 @@
 @import url(../vendor/font.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/font-weight/_bold/font-weight_bold.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/_inner/content_inner.css);
 
@@ -18,9 +23,6 @@
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__link-button/about__link-button.css);
 @import url(../blocks/about/__button/about__button.css);
-@import url(../blocks/description/description.css);
-@import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/articles/articles.css);
 @import url(../blocks/articles/__title/articles__title.css);
 @import url(../blocks/articles/__list/articles__list.css);
@@ -40,6 +42,9 @@
 @import url(../blocks/share/__item/share__item.css);
 @import url(../blocks/share/__link/share__link.css);
 @import url(../blocks/share/__icon/share__icon.css);
+
+@import url(../blocks/partners/__logo-block/partners__logo-block.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
