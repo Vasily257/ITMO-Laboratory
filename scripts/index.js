@@ -1,7 +1,5 @@
 'use strict';
 
-import { articleData } from './articles.js';
-
 // Articles
 
 const articlesСontainer = document.querySelector('.articles__list');
@@ -49,8 +47,6 @@ function renderArticle(data) {
 articleData.forEach(renderArticle);
 
 // Swiper
-import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js';
-
 const articleSwiper = new Swiper('.articles-swiper', {
   slidesPerView: 1,
   spaceBetween: 30,
