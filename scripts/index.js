@@ -47,3 +47,15 @@ function renderArticle(data) {
 // Сreate articles
 
 articleData.forEach(renderArticle);
+
+// Swiper
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js';
+
+const articleSwiper = new Swiper('.articles-swiper', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
