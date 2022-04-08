@@ -1,0 +1,8 @@
+.articles__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  border-radius: 5px;
+  background-color: #ffffff;
+}
