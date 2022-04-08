@@ -1,0 +1,22 @@
+.footer__logo{
+  width: 140px;
+  height: 33px;
+  padding-bottom: 41px;
+}
+@media (min-width: 450px) {
+  .footer__logo{
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .footer__logo{
+    height: 54px;
+    padding-bottom: 31px;
+  }
+}
+@media (min-width: 1440px) {
+  .footer__logo{
+    padding-bottom: 38px;
+
+  }
+}

@@ -9,6 +9,7 @@
 @import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/_inner/content_inner.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
@@ -41,5 +42,26 @@
 @import url(../blocks/share/__item/share__item.css);
 @import url(../blocks/share/__link/share__link.css);
 @import url(../blocks/share/__icon/share__icon.css);
+
 @import url(../blocks/partners/__logo-block/partners__logo-block.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo-pic/footer__logo-pic.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__about-header/footer__about-header.css);
+@import url(../blocks/footer/__about-list/footer__about-list.css);
+@import url(../blocks/footer/__about-list-el/footer__about-list-el.css);
+@import url(../blocks/footer/__about-link/footer__about-link.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__header/contacts__header.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/contacts/__telephones/contacts__telephones.css);
+@import url(../blocks/contacts/__email/contacts__email.css);
+@import url(../blocks/contacts-social/contacts-social.css);
+@import url(../blocks/contacts-social/__list/contact-social__list.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/contacts-social/__pic/contact-social__pic.css);

@@ -1,0 +1,16 @@
+.footer__about{
+  width: 140px;
+}
+@media (min-width: 500px) {
+  .footer__about{
+    width: 100px;
+    padding-left: 20px;
+
+  }
+}
+@media (min-width: 1200px) {
+  .footer__about{
+    margin-top: -64px;
+    order: 4;
+  }
+}

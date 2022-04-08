@@ -1,0 +1,7 @@
+.contact-social__link{
+  display: block;
+  transition: .4s;
+}
+.contact-social__link:hover{
+  opacity: 0.5;
+}

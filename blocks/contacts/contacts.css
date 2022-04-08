@@ -1,0 +1,22 @@
+.contacts{
+  width: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 40px 0 20px;
+}
+@media (min-width: 768px) {
+  .contacts{
+    width: 210px;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts{
+
+    margin-top: -64px;
+    order: 4;
+
+  }
+}
+

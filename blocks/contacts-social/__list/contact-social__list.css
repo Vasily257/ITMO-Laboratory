@@ -1,0 +1,6 @@
+.contact-social__list{
+  margin-right: 10px;
+}
+.contact-social__list:last-child{
+  margin-right: 0;
+}

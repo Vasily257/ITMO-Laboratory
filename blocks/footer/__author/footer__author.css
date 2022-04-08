@@ -1,0 +1,23 @@
+.footer__author{
+  width: 100%;
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .footer__author{
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    width: 470px;
+    padding-top: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__author{
+    order: 5;
+  }
+}
