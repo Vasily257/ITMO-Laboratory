@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
+@import url(../vendor/swiper/swiper.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/font-weight/_bold/font-weight_bold.css);
 @import url(../blocks/section/section.css);

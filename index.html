@@ -47,7 +47,10 @@
       <section class="education" id="education"></section>
       <section class="articles" id="articles">
         <h2 class="articles__title">Публикации</h2>
-        <ul class="articles__list"></ul>
+        <div class="articles__wrapper swiper articles-swiper">
+          <ul class="articles__list swiper-wrapper"></ul>
+          <div class="articles__pagination swiper-pagination"></div>
+        </div>
       </section>
       <section class="team" id="team"></section>
       <section class="section">
@@ -138,7 +141,7 @@
 
     <footer class="footer"></footer>
     <template class="articles-template">
-      <li class="articles__item">
+      <li class="articles__item swiper-slide">
         <img class="articles__item-image" src="" alt="" />
         <h3 class="articles__item-title" lang="en"></h3>
         <p class="articles__item-authors" lang="en"></p>
