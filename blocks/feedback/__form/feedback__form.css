@@ -1,0 +1,15 @@
+.feedback__form {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .feedback__form {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .feedback__form {
+        margin-bottom: 35px;
+    }
+}

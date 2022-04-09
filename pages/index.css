@@ -47,6 +47,10 @@
 @import url(../blocks/partners/__logo-block/partners__logo-block.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
 
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__submit-button/feedback__submit-button.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__logo-pic/footer__logo-pic.css);
