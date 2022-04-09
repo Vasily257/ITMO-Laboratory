@@ -1,3 +1,20 @@
 .edu__program {
+  background-color: red;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0588372px;
+  text-transform: uppercase;
+  object-fit: contain;
+}
+
+.edu__program:last-child{
+  background-color: white;
+  color: black;
+  background-repeat: repeat;
+
 
 }

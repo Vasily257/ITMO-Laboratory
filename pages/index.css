@@ -20,3 +20,17 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__text/description__text.css);
+
+@import url(../blocks/edu/__program/edu__program.css);
+@import url(../blocks/edu/__programs/edu__programs.css);
+@import url(../blocks/edu/__subtitle/edu__subtitle.css);
+@import url(../blocks/edu/__title/edu__title.css);
+@import url(../blocks/edu/edu.css);
+@import url(../blocks/edu-card/__arrow/edu-card__arrow.css);
+@import url(../blocks/edu-card/__item/edu-card__item.css);
+@import url(../blocks/edu-card/__link/edu-card__link.css);
+@import url(../blocks/edu-card/__list/edu-card__list.css);
+@import url(../blocks/edu-card/__picture/edu-card__picture.css);
+@import url(../blocks/edu-card/__program/edu-card__program.css);
+@import url(../blocks/edu-card/__title/edu-card__title.css);
+@import url(../blocks/edu-card/edu-card.css);

@@ -1,3 +1,10 @@
 .edu-card__list {
-
+  list-style: none;
+  padding: 0;
+  /* list-style-position: inside; */
 }
+
+.edu-card__list::before {
+  content:"";
+}
+

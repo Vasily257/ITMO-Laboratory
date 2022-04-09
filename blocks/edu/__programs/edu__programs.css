@@ -1,3 +1,11 @@
 .edu__programs {
+  margin-top: 16px;
+  box-sizing: border-box;
+  min-width: 288px;
+  min-height: 40px;
+  border: 1px solid white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }

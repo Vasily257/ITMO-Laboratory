@@ -1,3 +1,12 @@
 .edu-card__item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0588372px;
+}
 
+.edu-card__item::before {
+  content:"* ";
 }
