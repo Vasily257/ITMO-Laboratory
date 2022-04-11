@@ -49,6 +49,7 @@
 
 @import url(../blocks/feedback/__form/feedback__form.css);
 @import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__input/_type/feedback__input_type_text.css);
 @import url(../blocks/feedback/__submit-button/feedback__submit-button.css);
 
 @import url(../blocks/footer/footer.css);
