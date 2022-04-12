@@ -1,5 +1,19 @@
 .partners__logo {
     object-fit: contain;
-    max-width: 240px;
-    max-height: 50px;
+    max-width: calc(150px + (100vw - 320px) * 0.1);
+    height: calc(20px + (100vw - 320px) * 0.027);
+}
+
+@media (min-width: 768px) {
+    .partners__logo {
+        max-width: calc(195px + (100vw - 768px) * 0.037);
+        height: calc(32px + (100vw - 768px) * 0.024);
+    }
+}
+
+@media (min-width: 1440px) {
+    .partners__logo {
+        max-width: 220px;
+        height: 48px;
+    }
 }

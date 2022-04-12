@@ -46,6 +46,7 @@
 
 @import url(../blocks/partners/__logo-block/partners__logo-block.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__logo/_hide-when-max-width/partners__logo_hide-when-max-width_855px.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

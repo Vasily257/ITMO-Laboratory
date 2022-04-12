@@ -1,12 +1,11 @@
 .header__menu {
-    display: flex;
+    display: none;
     margin: 3px 0 7px;
-    visibility: hidden;
-    position: absolute;
 }
 
 @media (min-width: 1280px) {
     .header__menu {
+        display: flex;
         visibility: visible;
         position: relative;
     }
