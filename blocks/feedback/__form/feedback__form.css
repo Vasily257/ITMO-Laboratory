@@ -1,0 +1,25 @@
+.feedback__form {
+    margin: 23px auto 40px;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .feedback__form {
+        max-width: 1113px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 60px;
+        gap: 12px 29px;
+        margin: 37px auto 77px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .feedback__form {
+        margin: 60px auto 52px;
+        row-gap: 20px;
+    }
+}
