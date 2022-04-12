@@ -1,0 +1,5 @@
+@media (max-width: 855px) {
+    .partners__logo_hide-when-max-width_855px {
+        display: none;
+    }
+}
