@@ -14,6 +14,13 @@
     z-index: 3;
 }
 
+@media (max-width: 425px) {
+    .header__close-menu {
+        left: auto;
+        right: 19px;
+    }
+}
+
 @media (min-width: 768px) {
     .header__close-menu {
         top: 18px;

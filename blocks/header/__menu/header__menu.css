@@ -8,13 +8,14 @@
     min-height: 432px;
     padding: 60px 0 16px;
     z-index: 2;
+    width: 330px;
 }
 
-/*@media (max-width: 425px) {
+@media (max-width: 425px) {
     .header__menu {
-
+        width: 100%;
     }
-}*/
+}
 
 @media (min-width: 768px) {
     .header__menu {
@@ -32,5 +33,6 @@
         background-color: rgba(0, 0, 0, 0);
         min-height: 24px;
         padding: 0;
+        width: auto;
     }
 }

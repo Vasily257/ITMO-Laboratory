@@ -4,6 +4,7 @@
 
 @media (min-width: 1280px) {
     .header__logo_position_center {
+        margin: 0;
         margin-right: calc(5vw + 63px);
     }
 }
