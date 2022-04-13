@@ -7,11 +7,16 @@ const headerMenuButton = header.querySelector('.header__menu-button');
 const headerLeftLogo = header.querySelector('.header__logo_position_left');
 const headerMenuClose = header.querySelector('.header__close-menu');
 const headerMenu = header.querySelector('.header__menu');
+const headerEdicationItem = headerMenu.querySelector('.header__item_element_education-button');
+const headerMagistracyItem = headerMenu.querySelector('.magistracy');
+const headerPostgraduateItem = headerMenu.querySelector('.postgraduate');
 
 // функции для header
 const showElement = (element) => {element.classList.add('display_flex')};
-
 const hideElement = (element) => {element.classList.remove('display_flex')};
+
+const showSubitemElement = (element) => {element.classList.add('display_flex_min-width_1280px')};
+const hideSubitemElement = (element) => {element.classList.remove('display_flex_min-width_1280px')};
 
 // слушатели для header
 headerMenuButton.addEventListener('click', function() {
@@ -27,6 +32,11 @@ headerMenuClose.addEventListener('click', function() {
   hideElement(headerMenuClose);
   hideElement(headerMenu);
 });
+
+headerEdicationItem.addEventListener('click', function() {
+  headerMagistracyItem.classList.toggle('display_flex_min-width_1280px');
+  headerPostgraduateItem.classList.toggle('display_flex_min-width_1280px');
+})
 
 
 // Articles

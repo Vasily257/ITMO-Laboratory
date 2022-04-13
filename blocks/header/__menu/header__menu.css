@@ -9,6 +9,7 @@
     padding: 60px 0 16px;
     z-index: 2;
     width: 330px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 425px) {
