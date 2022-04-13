@@ -2,7 +2,6 @@
 @import url(../vendor/font.css);
 @import url(../vendor/swiper/swiper.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/font-weight/_bold/font-weight_bold.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_theme/section_theme_emerald.css);
 @import url(../blocks/section/_theme/section_theme_light-blue.css);
@@ -13,7 +12,10 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_position/header__logo_position_center.css);
+@import url(../blocks/header/__logo/_position/header__logo_position_left.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__close-menu/header__close-menu.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -72,3 +74,6 @@
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__description/footer__description.css);
 @import url(../blocks/contacts-social/__pic/contact-social__pic.css);
+
+@import url(../blocks/font-weight/font-weight_bold.css);
+@import url(../blocks/display/display_flex.css);

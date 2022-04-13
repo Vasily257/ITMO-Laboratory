@@ -1,0 +1,19 @@
+.header__close-menu {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    background-image: url(../../../images/header__close-menu.svg);
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    left: 276px;
+    top: 20px;
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    .header__close-menu {
+        visibility: hidden;
+    }
+}

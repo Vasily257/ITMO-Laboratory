@@ -2,7 +2,6 @@
     object-fit: contain;
     width: 71px;
     height: 24px;
-    margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -16,6 +15,5 @@
     .header__logo {
         width: 150px;
         height: 54px;
-        margin-right: calc(5vw + 63px);
     }
 }

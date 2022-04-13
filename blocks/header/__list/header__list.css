@@ -1,8 +1,18 @@
 .header__list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto 0;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0;
     padding: 0;
-    width: calc(72vw - 213px);
+    width: 330px;
+}
+
+@media (min-width: 1280px) {
+    .header__list {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto 0;
+        padding: 0;
+        width: calc(72vw - 213px);
+    }
 }
