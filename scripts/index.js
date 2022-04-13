@@ -1,5 +1,34 @@
 'use strict';
 
+// header
+// константам присваимваем элементы header, задействующиеся в JS
+const header = document.querySelector('.header');
+const headerMenuButton = header.querySelector('.header__menu-button');
+const headerLeftLogo = header.querySelector('.header__logo_position_left');
+const headerMenuClose = header.querySelector('.header__close-menu');
+const headerMenu = header.querySelector('.header__menu');
+
+// функции для header
+const showElement = (element) => {element.classList.add('display_flex')};
+
+const hideElement = (element) => {element.classList.remove('display_flex')};
+
+// слушатели для header
+headerMenuButton.addEventListener('click', function() {
+  hideElement(headerMenuButton);
+  showElement(headerLeftLogo);
+  showElement(headerMenuClose);
+  showElement(headerMenu);
+});
+
+headerMenuClose.addEventListener('click', function() {
+  showElement(headerMenuButton);
+  hideElement(headerLeftLogo);
+  hideElement(headerMenuClose);
+  hideElement(headerMenu);
+});
+
+
 // Articles
 
 const articlesСontainer = document.querySelector('.articles__list');

@@ -8,8 +8,16 @@
     height: 25px;
     position: absolute;
     left: 276px;
-    top: 20px;
+    top: 10px;
     display: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+@media (min-width: 768px) {
+    .header__close-menu {
+        top: 18px;
+    }
 }
 
 @media (min-width: 1280px) {

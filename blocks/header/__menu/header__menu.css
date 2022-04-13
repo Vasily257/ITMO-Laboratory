@@ -2,11 +2,11 @@
     margin: 0;
     position: absolute;
     left: 0;
-    top: 60px;
+    top: 0;
     display: none;
     background-color: #000d26;
     min-height: 432px;
-    padding: 16px 0;
+    padding: 60px 0 16px;
     z-index: 2;
 }
 
@@ -15,6 +15,13 @@
 
     }
 }*/
+
+@media (min-width: 768px) {
+    .header__menu {
+        padding: 76px 0 16px;
+        top: 0;
+    }
+}
 
 @media (min-width: 1280px) {
     .header__menu {
