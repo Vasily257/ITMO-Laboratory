@@ -10,6 +10,7 @@ const headerMenu = header.querySelector('.header__menu');
 const headerEdicationItem = headerMenu.querySelector('.header__item_element_education-button');
 const headerMagistracyItem = headerMenu.querySelector('.magistracy');
 const headerPostgraduateItem = headerMenu.querySelector('.postgraduate');
+const headerAllLinks = headerMenu.querySelectorAll('.header__link');
 
 // функции для header
 const showElement = (element) => {element.classList.add('display_flex')};
@@ -33,11 +34,14 @@ headerMenuClose.addEventListener('click', function() {
   hideElement(headerMenu);
 });
 
-headerEdicationItem.addEventListener('click', function() {
+headerEdicationItem.addEventListener('click', function() {  // раскрытие дополнительных ссылок в меню
+  headerAllLinks.forEach (function(link) {link.classList.toggle('color_888')});
+  headerEdicationItem.querySelector('.header__link').classList.toggle('color_fff');
+  headerEdicationItem.querySelector('.header__link').classList.toggle('font-weight_600');
   headerMagistracyItem.classList.toggle('display_flex_min-width_1280px');
   headerPostgraduateItem.classList.toggle('display_flex_min-width_1280px');
-})
-
+});
+// конец кода для header
 
 // Articles
 

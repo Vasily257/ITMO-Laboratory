@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+.header__item:hover {
+    background-color: #001337;
+    transition: 1s;
+}
+
 @media (min-width: 768px) {
     .header__item {
         padding-left: 39px;
@@ -27,5 +32,10 @@
     
     .header__item:last-child {
         margin-right: 0;
+    }
+
+    .header__item:hover {
+        background-color: #000d26;
+        transition: 0;
     }
 }

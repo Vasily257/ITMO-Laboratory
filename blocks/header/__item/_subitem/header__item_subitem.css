@@ -1,6 +1,6 @@
 .header__item_subitem {
-    font-size: 12px;
     display: none;
+    opacity: 1;
 }
 
 @media (min-width: 1280px) {
