@@ -1,0 +1,10 @@
+.header__item_element_education-button {
+    display: flex;
+    cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+    .header__item_element_education-button {
+        display: none;
+    }
+}

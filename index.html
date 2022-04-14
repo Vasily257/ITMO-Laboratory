@@ -8,8 +8,10 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="header__logo" src="./images/logo_industrial-ai.png" alt="лого центра НТИ" />
-      <button type="button" class="header__menu-button"></button>
+      <img class="header__logo header__logo_position_center" src="./images/logo_industrial-ai.png" alt="лого центра НТИ" />
+      <button type="button" class="header__menu-button display_flex"></button>
+      <img class="header__logo header__logo_position_left" src="./images/logo_industrial-ai.png" alt="лого центра НТИ" />
+      <button type="button" class="header__close-menu" alt="закрыть меню"></button>
       <nav class="header__menu">
         <ul class="header__list">
           <li class="header__item header__item_active">
@@ -17,7 +19,10 @@
           </li>
           <li class="header__item"><a class="header__link" href="#research">Лаборатория</a></li>
           <li class="header__item"><a class="header__link" href="#projects">Проекты</a></li>
-          <li class="header__item"><a class="header__link" href="#education">Образование</a></li>
+          <li class="header__item header__item_element_education-link"><a class="header__link" href="#education">Образование</a></li>
+          <li class="header__item header__item_element_education-button"><p class="header__link">Образование</p></li>
+          <li class="header__item header__item_subitem magistracy"><a class="header__link font-size_12px color_888" href="#education">Магистратура</a></li>
+          <li class="header__item header__item_subitem postgraduate"><a class="header__link font-size_12px color_888" href="#education">Аспирантура</a></li>
           <li class="header__item"><a class="header__link" href="#publications">Публикации</a></li>
           <li class="header__item"><a class="header__link" href="#team">Команда</a></li>
           <li class="header__item"><a class="header__link" href="#feedback">Связаться</a></li>

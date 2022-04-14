@@ -1,11 +1,22 @@
 .header__link {
-    margin: 0;
+    display: flex;
+    margin: auto 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 19px;
     font-weight: 400;
-    color: #fff;
     text-decoration: none;
+    width: 100%;
+    color: #fff;
+}
+
+@media (min-width: 1280px) {
+    .header__link {
+        text-align: center;
+        line-height: 24px;
+        display: inline;
+        margin: 0;
+    }
 }

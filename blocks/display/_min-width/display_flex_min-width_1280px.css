@@ -1,0 +1,9 @@
+.display_flex_min-width_1280px {
+    display: flex;
+}
+
+@media (min-width: 1280px) {
+    .display_flex_min-width_1280px {
+        display: none;
+    }
+}

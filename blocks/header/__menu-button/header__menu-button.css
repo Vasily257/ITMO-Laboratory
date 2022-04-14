@@ -12,6 +12,7 @@
     cursor: pointer;
     visibility: visible;
     position: absolute;
+    display: none;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,9 @@
+.color_888 {
+    color: #888;
+}
+
+@media (min-width: 1280px) {
+    .color_888 {
+        color: white;
+    }
+}
