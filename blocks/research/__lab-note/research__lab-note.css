@@ -1,0 +1,8 @@
+.research__lab-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 48.7%;
+    position: relative;
+    margin-right: 30px;
+}
