@@ -1,0 +1,11 @@
+.research__card {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    background-position: center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+}

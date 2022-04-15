@@ -1,0 +1,10 @@
+.research__lab-photo_position_first {
+    background-image: url(../../../../images/research__cool-guy.png);
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    .research__lab-photo_position_first {
+        display: block;
+    }
+}

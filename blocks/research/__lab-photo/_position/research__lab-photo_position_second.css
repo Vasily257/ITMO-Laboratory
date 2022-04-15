@@ -1,0 +1,10 @@
+.research__lab-photo_position_second {
+    background-image: url(../../../../images/reseaech__cool-guys.jpg);
+    width: 48%;
+}
+
+@media (min-width: 1280px) {
+    .research__lab-photo_position_second {
+        width: 23.8%;
+    }
+}

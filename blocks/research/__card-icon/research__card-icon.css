@@ -1,0 +1,12 @@
+.research__card-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: scale-down;
+    object-position: center;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 36px;
+    margin: 0 auto 50px;
+    box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+    box-sizing: border-box;
+}

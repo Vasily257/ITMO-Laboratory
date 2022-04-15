@@ -1,0 +1,15 @@
+.research__card-button {
+    margin: 0 auto;
+    padding: auto;
+    vertical-align: middle;
+    width: calc(100% - 40px);
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #001337;
+    border-radius: 10px;
+    cursor: pointer;
+}
