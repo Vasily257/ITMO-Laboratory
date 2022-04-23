@@ -2,11 +2,32 @@
     width: 100%;
     margin: 0 0 20px;
     padding: 0;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 16px;
     font-weight: 400;
 }
 
 .research__lab-text:last-of-type {
     margin: 0;
 }
+
+@media (min-width: 768px) {
+    .research__lab-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .research__lab-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}/*
+
+@media (min-width: 1900px) {
+    .research__lab-text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}*/

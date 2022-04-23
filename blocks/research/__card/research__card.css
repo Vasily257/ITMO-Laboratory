@@ -1,11 +1,38 @@
 .research__card {
     display: flex;
     flex-direction: column;
-    width: 23%;
-    border-radius: 10px;
-    padding: 30px 20px 20px;
+    width: 48%;
+    border-radius: 5px;
+    padding: 10px;
     background-position: center;
     background-size: 100% 100%;
     box-sizing: border-box;
-    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    color: #001337;
+    box-shadow: none;
+    margin-bottom: 8px;
+    background: white;
+}
+
+@media (min-width: 710px) {
+    .research__card {
+        width: 23%;
+        margin-bottom: 0;
+        /*background-color: linear-gradient(180deg, rgba(256, 256, 256, 0) rgba(255, 255, 255, 1));
+        градиент фона не работает, так как background-image в любом случае сверху, нужно что-то другое */
+    }
+}
+
+@media (min-width: 768px) {
+    .research__card {
+        border-radius: 10px;
+        padding: 12px;
+        box-shadow: 0px 2px 12px rgba(1, 54, 157, 0.15);
+    }
+}
+
+@media (min-width: 1280px) {
+    .research__card {
+        padding: 30px 20px 20px;
+        box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    }
 }
