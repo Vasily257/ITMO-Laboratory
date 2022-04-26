@@ -1,0 +1,14 @@
+.research__lab-symbol {
+    display: none;
+    width: 24px;
+    object-fit: contain;
+    position: absolute;
+    left: -36px;
+    top: 50%;
+}
+
+@media (min-width: 1024px) {
+    .research__lab-symbol {
+        display: block;
+    }
+}

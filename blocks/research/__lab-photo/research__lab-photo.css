@@ -1,0 +1,17 @@
+.research__lab-photo {
+    width: 23.8%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.research__lab-photo:last-of-type {
+    margin-right: 0;
+}
+
+@media (min-width: 768px) {
+    .research__lab-photo {
+        border-radius: 10px;
+    }
+}

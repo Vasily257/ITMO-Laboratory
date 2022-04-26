@@ -1,0 +1,31 @@
+.research__card-button {
+    margin: 0 auto;
+    padding: auto;
+    vertical-align: middle;
+    width: calc(100% - 20px);
+    min-height: 32px;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #001337;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .research__card-button {
+        width: calc(100% - 24px);
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .research__card-button {
+        width: calc(100% - 40px);
+        min-height: 40px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

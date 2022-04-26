@@ -1,0 +1,17 @@
+.research__lab-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .research__lab-content {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 77.2%;
+        margin: 30px auto 0;
+    }
+}
